@@ -1,0 +1,45 @@
+body {
+  width: 100vh;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  font-family: "Tusker Grotesk";
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  transition: transform 500ms cubic-bezier(0.13, 0.53, 0.38, 0.97);
+  background-size: cover;
+  background-position: center 0%;
+  position: relative;
+  z-index: 2;
+}
+
+@font-face {
+  font-family: "Tusker Grotesk";
+  src: url("./assets/fonts/TuskerGrotesk-4500Medium.ttf");
+}
+
+/* Open icon is displayed when navigation bar isn't displayed and mouse isn't hovering*/
+.page:not([data-nav="true"]) > #nav-toggle:hover > .open {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* Close icon is displayed when navigation bar is displayed */
+.page[data-nav="true"] > #nav-toggle > .close {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+  font-size: 2.25rem;
+}
+
+.page[data-nav="true"] > main {
+  transform: translateY(-50%);
+}
+
+.page[data-nav="true"] > nav > #nav-links {
+  transform: translateY(0%) scale(1);
+}

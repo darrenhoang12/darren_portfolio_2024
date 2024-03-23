@@ -1,0 +1,44 @@
+.landingContainer {
+  position: relative;
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+}
+
+.picture {
+  width: 50vw;
+  height: 100vh;
+  background-color: #d0bcb0;
+}
+
+.summary {
+  width: 50vw;
+  height: 100vh;
+  background-color: #e5dfda;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-direction: center;
+}
+
+.summary > * {
+  text-align: center;
+  right: 0;
+  bottom: 0;
+}
+
+.summary > h1 {
+  font-size: 7rem;
+  margin: 0;
+}
+
+.summary > p {
+  font-size: 2.25rem;
+  margin: 20px 60px 20px 60px;
+}
+
+.summary > a {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgb(182, 142, 113);
+}
