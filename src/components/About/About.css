@@ -1,11 +1,23 @@
 .aboutContainer {
   position: relative;
   display: grid;
-  grid-template-columns: 40vw 60vw;
+  grid-template-columns: 35vw 65vw;
   height: 100vh;
-  background-color: #e5dfda;
+  background-color: #fdf9f3;
 }
 
 .aboutContainer > h1 {
   color: white;
+}
+
+.aboutPicture {
+  background-image: url("../../assets/photos/aboutImage.jpg");
+  background-size: cover;
+  background-position: center 0%;
+}
+
+.aboutPicture > h1 {
+  font-size: 12rem;
+  margin: 5rem 0 0 5rem;
+  color: #fdf9f3;
 }

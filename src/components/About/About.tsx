@@ -28,7 +28,9 @@ export default function About() {
             <h1>Hi I'm Darren</h1>
             <p>This is a short summary about me.</p>
           </div>
-          <img src="/picture.jpg" alt="Interesting about me picture here" />
+          <div className="aboutPicture">
+            <h1>ABOUT</h1>
+          </div>
         </div>
       </main>
       <Nav onClick={redirect}></Nav>
