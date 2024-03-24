@@ -28,7 +28,7 @@ export default function Landing() {
           <div className="summary">
             <h1>DARREN HOANG</h1>
             <p>
-              A software engineer with a passion for data-driven and full-stack
+              software engineer dedicated to data-driven and full-stack
               development
             </p>
             <a href="#">learn more about me</a>
