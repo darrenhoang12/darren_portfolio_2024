@@ -23,8 +23,12 @@ export default function About() {
   return (
     <div className="page" data-nav={isNavOpen}>
       <main>
-        <div className="work">
-          <h1>About</h1>
+        <div className="aboutContainer">
+          <div className="aboutText">
+            <h1>Hi I'm Darren</h1>
+            <p>This is a short summary about me.</p>
+          </div>
+          <img src="/picture.jpg" alt="Interesting about me picture here" />
         </div>
       </main>
       <Nav onClick={redirect}></Nav>
