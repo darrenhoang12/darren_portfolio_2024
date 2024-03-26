@@ -11,9 +11,9 @@
 }
 
 .aboutPicture {
-  background-image: url("../../assets/photos/aboutImage.jpg");
+  background-image: url("../../assets/photos/aboutPicture.jpg");
   background-size: cover;
-  background-position: center 0%;
+  background-position: bottom;
 }
 
 .aboutPicture > h1 {
