@@ -32,7 +32,7 @@ export default function Nav({
             src="https://images.unsplash.com/photo-1666005487638-61f45819c975?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
           />
         </Link>
-        <Link className="nav-link" to="/contact" onClick={onClick("about")}>
+        <Link className="nav-link" to="/contact" onClick={onClick("/contact")}>
           <h2 className="nav-link-label rubik-font">Contact</h2>
           <img
             className="nav-link-image"
