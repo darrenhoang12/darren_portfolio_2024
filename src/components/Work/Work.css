@@ -1,3 +1,7 @@
-.work > h1 {
-  color: white;
+.workContainer {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fdf9f3;
 }

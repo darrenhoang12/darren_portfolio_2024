@@ -23,7 +23,7 @@ export default function Work() {
   return (
     <div className="page" data-nav={isNavOpen}>
       <main>
-        <div className="work">
+        <div className="workContainer">
           <h1>Work</h1>
         </div>
       </main>
